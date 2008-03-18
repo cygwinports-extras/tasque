@@ -1,0 +1,5 @@
+category: Gnome
+requires: mono glib-sharp2 gtk-sharp2 gnome-sharp2 ndesk-dbus-sharp ndesk-dbus-glib-sharp notify-sharp
+sdesc: "GNOME task list application"
+ldesc: "Tasque is a simple task management app (TODO list) for the GNOME 
+desktop."
