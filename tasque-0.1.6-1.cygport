@@ -1,0 +1,5 @@
+inherit mono gnome2
+
+DESCRIPTION="GNOME todo list application"
+HOMEPAGE="http://live.gnome.org/Tasque"
+CYGCONF_ARGS="--disable-backend-rtm --enable-backend-sqlite"

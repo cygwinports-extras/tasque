@@ -3,10 +3,10 @@ tasque
 Tasque is a simple task management app (TODO list) for the GNOME desktop.
 
 Runtime requirements:
-  mono-1.2.6-1
-  glib-sharp2-2.10.2-1
-  gnome-sharp2-2.16.0-1
-  gtk-sharp2-2.10.2-1
+  mono-1.9.1-1
+  glib-sharp2-2.12.1-1
+  gnome-sharp2-2.20.1-1
+  gtk-sharp2-2.12.1-1
   ndesk-dbus-glib-sharp-0.4.2-1
   ndesk-dbus-sharp-0.6.0-1
   notify-sharp-20070207-1
@@ -14,11 +14,11 @@ Runtime requirements:
 Build requirements:
 (besides corresponding -devel packages)
   autoconf2.5-2.61-1
-  automake1.10-1.10-1
+  automake1.10-1.10.1-1
   binutils-20060817-1
-  cygport-0.3.9-1
-  gawk-3.1.5-4
-  intltool-0.36.2-1
+  cygport-0.3.11-1
+  gawk-3.1.6-1
+  intltool-0.37.1-1
   make-3.81-1
   pkg-config-0.21-1
   sed-4.1.5-2
@@ -32,15 +32,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack tasque-0.1.5-X-src.tar.bz2
+  unpack tasque-0.1.6-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./tasque-0.1.5-X.cygport all
+  cygport ./tasque-0.1.6-X.cygport all
 
 This will create:
-  /usr/src/tasque-0.1.5-X-src.tar.bz2
-  /usr/src/tasque-0.1.5-X.tar.bz2
+  /usr/src/tasque-0.1.6-X-src.tar.bz2
+  /usr/src/tasque-0.1.6-X.tar.bz2
 
 -------------------------------------------
 
@@ -51,16 +51,17 @@ Files included in the binary package:
   /usr/lib/pkgconfig/tasque.pc
   /usr/lib/tasque/RtmNet.dll
   /usr/lib/tasque/Tasque.exe
+  /usr/lib/tasque/Tasque.exe.config
   /usr/share/applications/tasque.desktop
   /usr/share/dbus-1/services/org.gnome.Tasque.service
-  /usr/share/doc/tasque-0.1.5/AUTHORS
-  /usr/share/doc/tasque-0.1.5/COPYING
-  /usr/share/doc/tasque-0.1.5/ChangeLog
-  /usr/share/doc/tasque-0.1.5/INSTALL
-  /usr/share/doc/tasque-0.1.5/MAINTAINERS
-  /usr/share/doc/tasque-0.1.5/NEWS
-  /usr/share/doc/tasque-0.1.5/README
-  /usr/share/doc/tasque-0.1.5/TODO
+  /usr/share/doc/tasque-0.1.6/AUTHORS
+  /usr/share/doc/tasque-0.1.6/COPYING
+  /usr/share/doc/tasque-0.1.6/ChangeLog
+  /usr/share/doc/tasque-0.1.6/INSTALL
+  /usr/share/doc/tasque-0.1.6/MAINTAINERS
+  /usr/share/doc/tasque-0.1.6/NEWS
+  /usr/share/doc/tasque-0.1.6/README
+  /usr/share/doc/tasque-0.1.6/TODO
   /usr/share/icons/hicolor/16x16/apps/tasque.png
   /usr/share/icons/hicolor/22x22/apps/tasque.png
   /usr/share/icons/hicolor/24x24/apps/tasque.png
@@ -68,6 +69,9 @@ Files included in the binary package:
   /usr/share/icons/hicolor/48x48/apps/tasque.png
   /usr/share/icons/hicolor/scalable/apps/tasque.svg
   /usr/share/locale/fi/LC_MESSAGES/tasque.mo
+  /usr/share/locale/fr/LC_MESSAGES/tasque.mo
+  /usr/share/locale/nl/LC_MESSAGES/tasque.mo
+  /usr/share/locale/pt_BR/LC_MESSAGES/tasque.mo
   /usr/share/pixmaps/note-16.png
   /usr/share/pixmaps/rtmLogo.png
   /usr/share/pixmaps/tasque-16.png
@@ -81,6 +85,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.1.6-1 -----
+Version bump.
 
 ----- version 0.1.5-1 -----
 Initial release for Cygwin.
