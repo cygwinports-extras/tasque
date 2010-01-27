@@ -1,0 +1,14 @@
+inherit mono gnome2
+
+DESCRIPTION="GNOME todo list application"
+HOMEPAGE="http://live.gnome.org/Tasque"
+
+PATCH_URI="0.1.8-dllmap-cygwin.patch"
+
+CYGCONF_ARGS="
+	--enable-backend-eds
+	--enable-backend-hiveminder
+	--disable-backend-icecore
+	--enable-backend-rtm
+	--enable-backend-sqlite
+"

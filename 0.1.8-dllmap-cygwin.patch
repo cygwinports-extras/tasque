@@ -1,0 +1,9 @@
+--- origsrc/tasque-0.1.8/src/Tasque.exe.config.in	2008-06-06 11:15:01.000000000 -0500
++++ src/tasque-0.1.8/src/Tasque.exe.config.in	2010-01-27 04:24:21.708976600 -0600
+@@ -1,4 +1,4 @@
+ <configuration>
+-  <dllmap dll="libX11" target="libX11.so.6" />
+-  <dllmap dll="gdk-x11-2.0" target="libgdk-x11-2.0.so.0" />
++  <dllmap dll="libX11" target="cygX11-6.dll" />
++  <dllmap dll="gdk-x11-2.0" target="cyggdk-x11-2.0-0.dll" />
+ </configuration>
